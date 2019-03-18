@@ -8785,6 +8785,10 @@ fieldset[disabled] .form-control {
 [26.1 Different]
 */
 
+.georgia {
+	font-family: 'Georgia';
+}
+
 /* Text Align */
 .text-left {
 	text-align: left !important;
@@ -8841,6 +8845,7 @@ fieldset[disabled] .form-control {
 
 /* Font Sizes */
 .font-large {
+	font-family: 'Georgia';
 	font-size: 72px;
 	line-height: 80px;
 }
