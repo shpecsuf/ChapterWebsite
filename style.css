@@ -974,8 +974,8 @@ section,
 /* Container Overlay */
 .container-overlay {
 	position: absolute;
-	top: -90px;
-	bottom: -90px;
+	top: 15px;
+	bottom: 15px;
 	left: 0;
 	right: 0;
 	z-index: -1;
