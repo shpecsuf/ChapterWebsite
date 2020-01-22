@@ -139,13 +139,14 @@
 								<h4>Write to us:</h4>
 								<p class="nomargin">If you have comments, suggestions, etc. Let us know.</p>
 								<div class="divider-alt"></div>
-								<form class="contactform nobottommargin" action="include/sendemail.php" method="post">
-									<input type="text" id="contactform-name" name="name" placeholder="Insert your name" class="form-control required">
-									<input type="email" id="contactform-email" name="email" placeholder="Insert your email address" class="form-control required">
-									<input type="text" id="contactform-subject" name="subject" placeholder="Insert your subject" class="form-control required">
-									<textarea name="message" id="contactform-message" placeholder="Insert your message" class="form-control required" rows="7"></textarea>
+								<form class="contactform nobottommargin" action="https://formspree.io/xknjyyng" method="post">
+									<input type="text" id="contactform-name" name="name" placeholder="Insert your name" class="form-control required" required="required">
+									<input type="email" id="contactform-email" name="email" placeholder="Insert your email address" class="form-control required" required="required">
+									<!-- <input type="text" id="contactform-subject" name="subject" placeholder="Insert your subject" class="form-control required"> -->
+									<textarea name="message" id="contactform-message" placeholder="Insert your message" class="form-control required" rows="7" required="required"></textarea>
 									<div class="response-message"></div>
-									<button class="button button-border button-rounded nomargin" type="submit" id="submit" name="submit">Send Message</button>
+									<!-- <button class="button button-border button-rounded nomargin" type="submit" id="submit" name="submit">Send Message</button> -->
+									<input type="submit" class="button button-border button-rounded nomargin" value="Send">
 								</form>
 							</div>
 							<div class="col-md-5 col-md-offset-1">
