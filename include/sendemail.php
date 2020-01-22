@@ -15,8 +15,8 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
         $subject = isset($subject) ? $subject : 'New Message From Contact Form'; // Enter the subject here.
 
-        $toemail = 'youremail@yourwebsite.com'; // Enter your mail addres here.
-        $toname = 'Your Name'; // Enter your name here.
+        $toemail = 'csufshpe@gmail.com'; // Enter your mail addres here.
+        $toname = 'CSUF SHPE'; // Enter your name here.
 
 		$mail->SetFrom( $email , $name );
 		$mail->AddReplyTo( $email , $name );
