@@ -67,6 +67,30 @@
 }
 
 .butts:hover {
-  background-color: #3FA4F5 !important; 
+  background-color: #3FA4F5 !important;
   color: white;
+}
+
+.dotts{
+	border: dotted #eaf6f6 6px;
+	border-bottom: none;
+	width: 4%;
+	margin: 100px auto;
+}
+
+.right{
+	width: 35%;
+	float: right;
+	margin-right: 30px;
+}
+
+.left{
+	width: 40%;
+	float: left;
+	margin-right: 40px;
+}
+
+.alum-margin{
+	width: 70%;
+	margin: 100px auto 100px;
 }
