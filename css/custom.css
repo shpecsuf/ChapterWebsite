@@ -78,13 +78,13 @@
 	margin: 100px auto;
 }
 
-.right{
+.fright{
 	width: 35%;
 	float: right;
 	margin-right: 30px;
 }
 
-.left{
+.fleft{
 	width: 40%;
 	float: left;
 	margin-right: 40px;
@@ -93,4 +93,8 @@
 .alum-margin{
 	width: 70%;
 	margin: 100px auto 100px;
+}
+
+.ecslogo{
+	padding-top: 30%;
 }
