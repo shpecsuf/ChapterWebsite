@@ -5731,7 +5731,7 @@ a.button-image:hover {
 .user-image img {
 	display: block;
 	margin: 0 auto;
-	width: 100% !important;
+	width: auto !important;
 	max-height: 20em !important;
 }
 
