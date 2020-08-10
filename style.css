@@ -5731,8 +5731,8 @@ a.button-image:hover {
 .user-image img {
 	display: block;
 	margin: 0 auto;
-	width: 240px !important;
-	height: 240px !important;
+	width: 100% !important;
+	max-height: 20em !important;
 }
 
 .profile-card .user-image::before {
