@@ -1,0 +1,12 @@
+DirectoryIndex index.html
+ErrorDocument 404 http://shpecsuf.org/
+
+<files password.php>
+order allow,deny
+deny from all
+</files>
+
+RewriteEngine On
+RewriteRule ^about$ about.php [NC]
+RewriteRule ^board$ eboard.php [NC]
+RewriteRule ^contact$ contact.php [NC]
