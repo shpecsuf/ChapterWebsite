@@ -1,8 +1,6 @@
-DirectoryIndex index.html
-ErrorDocument 404 http://shpecsuf.org/
 
 
-Options -MultiViews
+
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
