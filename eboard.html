@@ -85,35 +85,38 @@
 	<script>
 
 		function nextBoard(num) {
-			var n2018 = document.getElementById("2018-2019");
-			var n2019 = document.getElementById("2019-2020");
-			var n2020 = document.getElementById("2020-2021");
-			var n2021 = document.getElementById("2021-2022");
+			var board2018 = document.getElementById("2018-2019");
+			var board2019 = document.getElementById("2019-2020");
+			var board2020 = document.getElementById("2020-2021");
+			var board2021 = document.getElementById("2021-2022");
 			if (num == 1) {
-				n2018.style.display = "block";
-				n2019.style.display = "none";
-				m2020.style.display = "none";
-				m2021.style.display = "none";
+				board2018.style.display = "block";
+				board2019.style.display = "none";
+				board2020.style.display = "none";
+				board2021.style.display = "none";
 			}
 			else if (num == 2) {
-				n2018.style.display = "none";
-				n2019.style.display = "block";
-				n2020.style.display = "none";
-				m2021.style.display = "none";
+				board2018.style.display = "none";
+				board2019.style.display = "block";
+				board2020.style.display = "none";
+				board2021.style.display = "none";
 			}
 			else if (num == 3) {
-				n2018.style.display = "none";
-				n2019.style.display = "none";
-				n2020.style.display = "block";
-				m2021.style.display = "none";
+				board2018.style.display = "none";
+				board2019.style.display = "none";
+				board2020.style.display = "block";
+				board2021.style.display = "none";
 			}
 			else if (num == 4) {
-				n2018.style.display = "none";
-				n2019.style.display = "none";
-				n2020.style.display = "none";
-				m2021.style.display = "block";
+				board2018.style.display = "none";
+				board2019.style.display = "none";
+				board2020.style.display = "none";
+				board2021.style.display = "block";
 			}
 		}
+	document.addEventListener("DOMContentLoaded", function(event) { 
+		document.getElementById("default").click();
+	});
 	</script>
 
 	<div id="preloader">
@@ -192,7 +195,7 @@
 		<div class="divider divider-center divider-dark"></div>
 	</div>
 	<div style="text-align: center;">
-		<button onclick="nextBoard(4)" class="myButton butn">2021 - 2022</button>
+		<button onclick="nextBoard(4)" class="myButton butn"id="default">2021 - 2022</button>
 		<button onclick="nextBoard(3)" class="myButton butn">2020 - 2021</button>
 		<button onclick="nextBoard(2)" class="myButton butn">2019 - 2020</button>
 		<button onclick="nextBoard(1)" class="myButton butn">2018 - 2019</button>
@@ -909,7 +912,7 @@
 	</div>
 
 	<!-- 2021 - 2022 Board -->
-	<div id="2021-2022" style="display: block">
+	<div id="2021-2022" style="display: none">
 		<section class="section" style="padding-top:0">
 			<div class="section-container">
 				<div class="container">
